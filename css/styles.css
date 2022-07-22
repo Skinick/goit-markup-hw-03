@@ -2,8 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
     font-size: 14px;
-    letter-spacing: 0.03em;
-       
+    letter-spacing: 0.03em;    
 }
 
 :root {
@@ -14,8 +13,7 @@ body {
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
     --black-color: #000000;
-    --background-color: #F5F4FA;
-    
+    --background-color: #F5F4FA;   
 }
 
 h1,
@@ -25,15 +23,13 @@ h4,
 p {
     margin-top: 0;
     margin-bottom: 0;
-
 }
 
 ul {
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 0;
-    
+    padding-left: 0; 
 }
 
 img {
@@ -101,7 +97,6 @@ a {
 .header-container {
     display: flex;
     align-items: center;
-    width: 1170px;
 
 }
 
@@ -142,12 +137,14 @@ a {
     
 }
 
+.email {
+    margin-right: 50px;
+}
+
 .mail {
     font-weight: 500;
     line-height: 1.71;   
     color: var(--secondary-text-color);
-    margin-right: 50px;   
-
 }
 
 .phone-number {
@@ -167,7 +164,7 @@ a {
 .phone-number-footer:hover,
 .phone-number-footer:focus {
     color: var(--accent-color);
- }
+}
 
     /* HERO */
 
@@ -256,20 +253,17 @@ a {
     color: var(--primary-text-color);
     width: 270px;
     margin-bottom: 10px;
-
 }
 
 .future-text {
     line-height: 1.71;
-    color: var(--secondary-text-color);
-    
+    color: var(--secondary-text-color);   
 }
 
   /* Работы */
 
 .works {
     padding-top: 0;
-
 }
 
 
@@ -280,7 +274,7 @@ a {
     gap: 30px;
 }
 
-        /* Команда */
+    /* Команда */
 .team {
     background: var(--background-color);   
 }
@@ -291,7 +285,6 @@ a {
     flex-wrap: wrap;
     gap: 30px;
     text-align: center;
-    
 }
 
 .team-name {
@@ -317,8 +310,7 @@ padding-bottom: 30px;
 .footer {
     background: #2F303A;
     padding-top: 60px;
-    padding-bottom: 60px;
-       
+    padding-bottom: 60px;     
 }
 
 
@@ -339,25 +331,23 @@ padding-bottom: 30px;
 
 
 .contacts-footer {
-       font-style: normal;   
+    font-style: normal;   
 }
 
+.footer-adress {
+    margin-bottom: 9px;
+}
 
 .post-address {   
-    color: var(--white-color);
-    display: flex;
-    margin-bottom: 9px;
+    color: var(--white-color);   
 }
 
 .mail-footer {
-    color: rgba(255, 255, 255, 0.6);;
-    display: flex;
-    margin-bottom: 9px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .phone-number-footer {
-    color: rgba(255, 255, 255, 0.6);;
-    display: flex;
+    color: rgba(255, 255, 255, 0.6);
 }
 
   /* PORTFOLIO */
@@ -386,7 +376,6 @@ padding-bottom: 30px;
     text-align: center;
     
     color: var(--primary-text-color);
-
     background: var(--background-color);
     border-radius: 4px;
     
@@ -428,6 +417,8 @@ padding-bottom: 30px;
     padding-top: 20px;
     border: 1px solid #EEEEEE;
     padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .project-title {
@@ -435,6 +426,7 @@ padding-bottom: 30px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
+    margin-bottom: 4px;
 }
 
 .project-description {
